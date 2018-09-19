@@ -1,0 +1,49 @@
+html, body, #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: silver;
+}
+
+#title {
+    flex: 1;
+    text-decoration: underline;
+}
+
+#howMany {
+    flex: 1;
+    text-align: center;
+}
+
+#inputDiv {
+    display: flex;
+    flex: 1;
+    background-color: green;
+}
+
+#amountInput {
+    flex: 1;
+    height: 50px;
+    font-size: 150%;
+}
+
+#submitDiv {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+#submitButton {
+    flex: 0.5;
+    height: 50px;
+    margin-top: 1%;
+    font-size: 80%;
+}
+
+#results {
+    margin-top: 10%;
+    height: auto;
+    background-color: white;
+}

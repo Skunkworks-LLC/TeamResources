@@ -1,0 +1,75 @@
+/* UPDATES TAB */
+.updatesTabContainer {
+  display: flex;
+  flex: 0;
+  opacity: 0;
+  width: 0;
+  justify-content: center;
+  align-items: top;
+  background-color: white;
+}
+
+.updatesGrowDiv {
+  height: auto;
+  width: 100%;
+}
+
+.updatesMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.allUpdates {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projectLaunchDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  height: 200px;
+  width: 40%;
+  background-color: #194752;
+}
+
+.projectLaunchDate {
+  display: flex;
+  align-items: flex-end;
+  font-size: 80%;
+  flex: 1;
+  color: white;
+}
+
+.projectLaunchText {
+  display: flex;
+  flex: 1.5;
+  justify-content: center;
+  width: 100%;
+  font-family: 'cooper_lt_bt';
+  font-size: 180%;
+  color: white;
+}
+
+.spaceDiv {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 25px;
+}
+
+#leftLine {
+  flex: 1;
+}
+#rightLine {
+  flex: 1;
+  border: solid;
+  border-color: transparent transparent transparent #f1eeea;
+  height: 100%;
+  border-width: 1px;
+}

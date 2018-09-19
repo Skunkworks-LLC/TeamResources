@@ -1,0 +1,45 @@
+.questionBox {
+  display: flex;
+  flex: 1;
+  border: solid;
+  margin-bottom: 2%;
+  line-height: 2;
+  user-select: none;
+  border-style: solid;
+  border-color: #d4dad7;
+  border-width: 1px;
+}
+
+.questionBox:hover {
+  background-color: #f7f7f9;
+}
+
+.questionContent {
+  flex: 8;
+}
+
+.questionText {
+  flex: 1;
+  margin-top: 2%;
+}
+
+.answer {
+  display: none;
+  margin-left: 2%;
+}
+
+.answerDate {
+  color: #b7b6bd;
+  font-size: 85%;
+}
+
+.arrowContainer {
+  display: flex;
+  flex: 1;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.arrowButton {
+  flex: 1;
+}

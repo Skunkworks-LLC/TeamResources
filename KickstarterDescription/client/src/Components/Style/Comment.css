@@ -1,0 +1,71 @@
+.commentDiv {
+  width: 95%;
+  border-style: solid;
+  border-color: #d4dad7;
+  background-color: white;
+  border-width: 1px;
+  line-height: 2;
+  margin-bottom: 2%;
+}
+
+.commentBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.userDiv {
+  flex: 1;
+}
+
+.textDiv {
+  flex: 1;
+}
+
+.userInfo {
+  display: flex;
+  flex: 1;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.iconDiv {
+  flex: 1;
+}
+
+.userIcon {
+  width: 50px;
+  height: 50px;
+  margin-right: 5%;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: #d4dad7;
+  border-width: 1px;
+  box-shadow: 0px 0px 2px #888;
+}
+
+.nameAndDateDiv {
+  display: flex;
+  flex: 14;
+  flex-direction: column;
+  margin-left: 1%;
+  height: 50%;
+}
+
+.nameDiv {
+  color: #343434;
+}
+
+.dateDiv {
+  font-size: 90%;
+  color: #a0a3a3;
+  margin-top: -1%;
+}
+
+.commentText {
+  display: flex;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,82 @@
+/* CAMPAIGN TAB */
+.campaignTabContainer {
+  flex: 1;
+  margin-left: 10%;
+  background-color: white;
+  margin-top: 1%;
+}
+
+.campaignDivider {
+  display: flex;
+  flex: 1;
+}
+
+#supportDiv {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  margin-top: 1%;
+}
+
+#supportText {
+  display: flex;
+  flex: 1;
+  flex-basis: 0.5;
+  font-size: 155%;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+#support {
+  display: flex;
+  flex: 80;
+  justify-content: center;
+}
+
+.contentDiv {
+  flex: 1;
+  background-color: white;
+  margin-top: 1%;
+}
+
+.aboutText {
+  font-size: 155%;
+  margin-bottom: 1%;
+}
+
+.sectionContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 2;
+  font-size: 100%;
+  margin-bottom: 2%;
+}
+
+.sectionTitle {
+  flex: 1;
+  font-size: 150%;
+  font-weight: 100;
+  margin-bottom: 3%;
+  color: #2b2b2b;
+}
+
+.sectionImageDiv {
+  flex: 1;
+  margin-bottom: 5%;
+}
+
+.sectionImage {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 1px 3px 1px #b6b5b5;
+}
+
+.sectionParagraph {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}

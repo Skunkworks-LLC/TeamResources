@@ -1,0 +1,15 @@
+.navigationLineDiv {
+  display: flex;
+  flex: 0.05;
+  justify-content: center;
+  background-color: blue;
+}
+
+.navLine {
+  position: absolute;
+  height: 3px;
+  margin-top: 2px;
+  background-color: black;
+}
+
+/* black transparent transparent transparent; */

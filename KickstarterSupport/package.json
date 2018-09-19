@@ -1,0 +1,64 @@
+{
+  "name": "KickstarterSupport",
+  "version": "1.0.0",
+  "description": "The Support Component of the Kickstarter Page",
+  "main": "./client/index.jsx",
+  "author": "Malcolm Jones",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/Skunkworks-LLC/KickstarterSupport",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/client/src/test/helpers.js",
+    "testPathIgnorePatterns": [
+      "<rootDir>/client/src/test/helpers.js"
+    ]
+  },
+  "scripts": {
+    "server": "nodemon server/server.js",
+    "build": "webpack --watch -d",
+    "populateData": "node ./database/dataGenerator.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "jest": "^23.5.0",
+    "jest-enzyme": "^6.0.4",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.13",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.2",
+    "cors": "^2.8.4",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.6.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "json-schema-faker": "^0.5.0-rc15",
+    "react-test-renderer": "^16.5.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.2.0"
+  }
+}

@@ -1,0 +1,274 @@
+/* --------------------------------------
+---------- Pledge Input Bar -------------
+-------------------------------------- */
+
+/* ---------- Font ------------- */
+
+body {
+  /* font-family: 'Muli', sans-serif; */
+  font-family: "Mason Neue", sans-serif;
+  background-color: #FBFBFA;
+  font-family: 300;
+  font-weight: 3;
+}
+
+button:focus, input:focus {
+  outline: 0;
+}
+
+/* ---------- Pledge Box ------------ */
+
+.hoverDiv {
+  /* visibility: hidden; */
+  display: none;
+  position: relative;
+  /* top: 30px; */
+  vertical-align: middle;
+}
+.hoverDiv:hover {
+  color: white;
+  background-color: #009E74;
+  visibility: visible;
+}
+
+/* .actualBox {
+  position: absolute;
+} */
+
+/* ---------- Pledge Box Containers ------------ */
+
+.outsideBox {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pledgeBoxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 3px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border: 1.5px solid rgba(211,211,211, 0.5);
+  height: auto;
+  width: 350px;
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  user-select: none;
+}
+
+  .pledgeBoxContainer:hover {
+    border: 1.5px solid rgba(0,0,0, 0.5);
+  }
+  
+  .permanentBorder {
+      display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-bottom: 10px;
+    border: 1.5px solid rgba(211,211,211, 0.5);
+    height: auto;
+    width: 350px;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border: 1.5px solid rgba(0,0,0, 0.5);
+  }
+
+/* --------- Full-length Component ---------- */
+
+.pledgeBoxComponentSizing {
+  height: auto;
+  flex-basis: 80%;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.pledgeBoxComponentTextSizing {
+  height: auto;
+  flex-basis: 80%;
+  line-height: 20px;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+#inputContainer {
+  padding-bottom: 20px;
+}
+
+#pledgeRewards {
+  line-height: auto;
+  /* margin: 0px 0px 0px 0px; */
+  padding: 0px 0px 0px 0px;
+}
+
+/* ---------- Shipping Info ---------- */
+
+.shippingInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-top: 10px;
+}
+
+  .shippingInfo {
+    flex-basis: 50%;
+    align-content: flex-start;
+    line-height: 18px;
+  }
+
+#validLocations {
+  height: 40px;
+  border-radius: 0px;
+  border: 1.5px solid rgba(211,211,211, 0.5);
+  margin-top: 5px;
+}
+
+#validLocations:focus {
+  outline: none;
+}
+/* ------------- Availability ------------- */
+
+
+#pledgeNotAvailable {
+  width: 65%;
+  background-color: rgba(220,220,220, .9);
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.alignLeft {
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+/* ------------- Input Bar ------------- */
+
+.inputBarContainer {  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  border: 1.5px solid rgba(211,211,211, 0.5);
+  margin-top: 20px;
+  line-height: 40px;
+}
+  .inputBarContainer:hover {
+    border-color: #009E74;
+  }
+
+  #currency {
+    text-align: center;
+    flex: 1;
+    border: 1.5px solid rgba(211,211,211, 0.5);
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top:0px;
+    color: rgba(211,211,211, 0.5);
+  }
+  .inputBarContainer:hover #currency {
+    border: 1.5px solid #009E74;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top:0px;
+  }
+
+  .pledgeInputBar {
+    flex: 4;
+    border: 0px;
+    font-size: 16px
+  }
+
+  .inputBoxesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: 10px 0px 15px 0px;
+    padding-bottom: 10px;
+    border: none;
+    height: auto;
+    width: 350px;
+  }
+
+  /* .addedSpacing {
+    margin-top: 20px;
+  } */
+
+/* ---------- Input Button ------------- */
+
+ button {
+  color: rgba(250,250,250, .9);
+  background-color: #009E74;
+  text-align: center;
+  vertical-align: middle;
+}
+
+  button:hover {
+    color: rgba(250,250,250, .9);
+    background-color: #037362;
+    position: relative;
+    top: -1px;
+  }
+
+  #continueButton {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+  }
+
+/* ---------- Font ------------- */
+
+#allGone {
+  font-size: 20px;
+  font-weight: bold; 
+  pointer-events: none;
+  disabled: true;
+}
+
+.outsideBox .pledgeTitle {
+  margin-top: 25px;
+}
+
+.pledgeBoxHeaderFont {
+  font-size: 18px;
+  /* line-height: 1.4; */
+}
+
+.pledgeSubheaderFont {
+  font-size: 14px;
+  color: rgba(160,160,160, 1.5);
+}
+
+.pledgeSubheaderTitle {
+  font-size: 11px;
+  color: rgba(160,160,160, 1.5); 
+}
+
+.pledgeBoxComponentSizing .listItem {
+  color: black;
+  line-height: 20px;
+  flex-basis: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+  position: relative;
+  right: -10%;
+  top: 1px;
+}
+
+/* ---------- Misc ------------- */
+
+body .outsideBox .noBottomMargin {
+  margin-bottom: none;
+}

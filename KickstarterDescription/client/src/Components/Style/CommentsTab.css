@@ -1,0 +1,91 @@
+/* COMMENTS TAB */
+.commentsTabContainer {
+  display: flex;
+  flex: 0;
+  opacity: 0;
+  width: 0;
+  justify-content: center;
+  align-items: top;
+  margin-top: 2%;
+}
+
+.expansionDiv {
+  flex: 1;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.mainCommentsDiv {
+  display: flex;
+}
+
+.commentsContainer {
+  display: flex;
+  flex: 1.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.allCommentsBox {
+  flex: 0.95;
+  height: 100%;
+  background-color: #fbfbfa;
+  border-style: solid;
+  border-color: #d4dad7;
+  border-width: 1px;
+  margin-left: 10%;
+}
+
+.allComments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 2%;
+  margin-right: 4%;
+}
+
+.useThisSpaceContainer {
+  display: flex;
+  flex: 1;
+  height: 50%;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 4px;
+  border-color: transparent transparent transparent #d4dad7;
+}
+
+.useThisSpaceDiv {
+  display: flex;
+  flex: 0.2;
+  justify-content: flex-start;
+  align-items: top;
+}
+
+.useThisSpaceBox {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  height: 40%;
+}
+
+.cheerCreator {
+  flex: 1;
+  margin-left: 3%;
+}
+
+.checkoutFAQ {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a, #faqLink {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.haveAQuestion {
+  flex: 1.5;
+  margin-left: 3%;
+}

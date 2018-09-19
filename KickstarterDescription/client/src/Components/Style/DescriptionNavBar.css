@@ -1,0 +1,142 @@
+/* NAVIGATION */
+.detailsNav {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #d4dad7 transparent #d4dad7 transparent;
+  border-width: 1px;
+  min-height: 100px;
+}
+
+.lineAndButtonContainer {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navButtonsContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(34, 34, 34);
+  text-align: center;
+}
+
+.navButtonDiv {
+  display: flex;
+  flex: 0.1;
+  height: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.navButton {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  user-select: none;
+}
+
+.navButton:hover {
+  color: #80c6ad;
+}
+
+.backProjectContainer {
+  display: flex;
+  flex: 1.5;
+}
+
+.backProjectDiv {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.buttonDiv {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  text-align: center;
+  line-height: 0.9;
+  color: white;
+}
+
+.backProjectButton {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #469f74;
+  height: 45px;
+  width: 30vw;
+  font-weight: 100;
+  font-size: 90%;
+  transition: 0.5s;
+}
+
+.backProjectButton:hover {
+  background-color: #307463;
+  box-shadow: 0px 1px 1px 1px #b6b5b5;
+  transform: translateY(-1px);
+}
+
+.remindMeDiv {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.remindMeButton {
+  display: flex;
+  flex: 0.7;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 90%;
+  margin-left: 10%;
+  user-select: none;
+}
+
+.heartImg {
+  flex: 1;
+  height: 20px;
+  margin-right: 5%;
+}
+
+.remindMeText {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  color: #9291ab;
+  width: 10%;
+  height: 5%;
+}
+
+.remindMeText:hover {
+  color: black;
+}
+
+.navSpace {
+  display: flex;
+  flex: 0.3;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
